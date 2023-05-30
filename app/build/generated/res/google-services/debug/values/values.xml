@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">341303122511</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6q2ltIPKnIEMhzubp7qzvkgoxGZMzQNE</string>
+    <string name="google_app_id" translatable="false">1:341303122511:android:481927b88abf94ddba683a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6q2ltIPKnIEMhzubp7qzvkgoxGZMzQNE</string>
+    <string name="google_storage_bucket" translatable="false">cryptocloud-df7ac.appspot.com</string>
+    <string name="project_id" translatable="false">cryptocloud-df7ac</string>
+</resources>

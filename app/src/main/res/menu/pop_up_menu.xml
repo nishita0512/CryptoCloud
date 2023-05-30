@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/openPopUpMenu"
+        android:title="Open" />
+
+    <item
+        android:id="@+id/renamePopUpMenu"
+        android:title="Rename" />
+
+    <item
+        android:id="@+id/downloadPopMenu"
+        android:title="Download" />
+
+    <item
+        android:id="@+id/deletePopUpMenu"
+        android:title="Delete" />
+
+    <item
+        android:id="@+id/propertiesPopUpMenu"
+        android:title="Properties" />
+
+</menu>

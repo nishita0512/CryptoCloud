@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/files"
+        android:enabled="true"
+        android:icon="@drawable/ic_files"
+        android:title="@string/files"
+        app:cnb_backgroundColor="@color/primary"
+        app:cnb_textColor="@color/secondary" />
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/profile"
+        app:cnb_backgroundColor="@color/primary"
+        app:cnb_textColor="@color/secondary" />
+
+</menu>

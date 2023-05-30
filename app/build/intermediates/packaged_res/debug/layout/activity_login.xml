@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity"
+    android:background="@color/secondary">
+
+    <TextView
+        android:id="@+id/txtLoginHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/login_page"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/imgLogin"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/imgLogin"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        app:lottie_rawRes="@raw/login"
+        app:lottie_autoPlay="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLoginHeading"
+        app:layout_constraintBottom_toTopOf="@id/middleLayoutLoginActivity"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:id="@+id/middleLayoutLoginActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/imgLogin"
+        app:layout_constraintBottom_toTopOf="@id/btnLogin">
+
+        <EditText
+            android:id="@+id/edtTxtEmailLoginActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:hint="@string/email"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:autofillHints="name"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text_background"/>
+
+        <EditText
+            android:id="@+id/edtTxtPasswordLoginActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:hint="@string/password"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:autofillHints="name"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_background"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtCreateAccountLoginActivity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12dp"
+                android:text="@string/create_account"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                android:textColor="@color/primary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtForgotPasswordLoginActivity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12dp"
+                android:text="@string/forgot_password"
+                android:textAlignment="viewEnd"
+                android:textSize="16sp"
+                android:textColor="@color/primary"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnLogin"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/btn_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/middleLayoutLoginActivity"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

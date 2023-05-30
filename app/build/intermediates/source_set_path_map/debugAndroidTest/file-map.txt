@@ -1,0 +1,6 @@
+com.example.cryptocloud.test.app-core-1.5.0-0 C:\Users\nishi\.gradle\caches\transforms-3\6f07aa32d19b359e6e8e1e4724818957\transformed\core-1.5.0\res
+com.example.cryptocloud.test.app-annotation-experimental-1.3.0-1 C:\Users\nishi\.gradle\caches\transforms-3\c12c8482bce74504cdd9e8319afd0ddd\transformed\annotation-experimental-1.3.0\res
+com.example.cryptocloud.test.app-androidTest-2 C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\build\generated\res\resValues\androidTest\debug
+com.example.cryptocloud.test.app-mergeDebugAndroidTestResources-3 C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.cryptocloud.test.app-mergeDebugAndroidTestResources-4 C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.cryptocloud.test.app-merged_res-5 C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\build\intermediates\merged_res\debugAndroidTest

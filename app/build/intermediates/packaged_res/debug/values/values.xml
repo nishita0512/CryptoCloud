@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent">#86a6df</color>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#F8F8F8</color>
+    <color name="primary">#5068a9</color>
+    <color name="primary_dark">#324e7b</color>
+    <color name="secondary">#f8f8f8</color>
+    <color name="secondary_dark">#DDDDDD</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="app_name">CryptoCloud</string>
+    <string name="btnSignUp">Sign Up Button</string>
+    <string name="confPassword">Confirm Password</string>
+    <string name="create_account">Create account</string>
+    <string name="email">Email</string>
+    <string name="files">Files</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_note">After submitting, follow the instructions sent to your email.</string>
+    <string name="forgot_password_page">Forgot Password Page</string>
+    <string name="gcm_defaultSenderId" translatable="false">341303122511</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6q2ltIPKnIEMhzubp7qzvkgoxGZMzQNE</string>
+    <string name="google_app_id" translatable="false">1:341303122511:android:481927b88abf94ddba683a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6q2ltIPKnIEMhzubp7qzvkgoxGZMzQNE</string>
+    <string name="google_storage_bucket" translatable="false">cryptocloud-df7ac.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="login_page">Login Page</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="project_id" translatable="false">cryptocloud-df7ac</string>
+    <string name="submit_button">Submit Button</string>
+    <string name="txtName">Name</string>
+    <string name="txtSignUp">Sign Up</string>
+    <string name="txtSignUpPage">Sign Up Page</string>
+    <style name="Theme.CryptoCloud" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/secondary</item>
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/primary</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

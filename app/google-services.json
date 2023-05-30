@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "341303122511",
+    "project_id": "cryptocloud-df7ac",
+    "storage_bucket": "cryptocloud-df7ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341303122511:android:481927b88abf94ddba683a",
+        "android_client_info": {
+          "package_name": "com.example.cryptocloud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6q2ltIPKnIEMhzubp7qzvkgoxGZMzQNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_img_music.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/img_music.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/menu_pop_up_menu.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/menu/pop_up_menu.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/xml_provider_path.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/xml/provider_path.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_text_input_password.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/text_input_password.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_ic_files.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/ic_files.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_bottom_menu_background.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/bottom_menu_background.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_ic_add.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_ic_three_dots.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/ic_three_dots.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/raw_login.json.flat",
+        "source": "com.example.cryptocloud.app-main-40:/raw/login.json"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_img_png.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/img_png.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_img_file.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/img_file.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_text_input_rename.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/text_input_rename.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_activity_user_details.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_user_details.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_crypto_logo.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/crypto_logo.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_img_jpg.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/img_jpg.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_fragment_profile.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/raw_sign_up.json.flat",
+        "source": "com.example.cryptocloud.app-main-40:/raw/sign_up.json"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_ic_search.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/ic_search.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_ic_profile.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/ic_profile.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_img_pdf.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/img_pdf.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_btn_login.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/btn_login.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_ic_refresh.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/ic_refresh.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_ic_arrow_up.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/ic_arrow_up.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/menu_bottom_menu.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_img_sign_up.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/img_sign_up.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_btn_background.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/btn_background.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_fragment_files.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/fragment_files.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/raw_forgot_password.json.flat",
+        "source": "com.example.cryptocloud.app-main-40:/raw/forgot_password.json"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_img_add_image.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/img_add_image.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_img_login.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/img_login.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/menu_sort_menu.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/menu/sort_menu.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_activity_login.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_edit_text_background.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_crypto_file_single_row.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/crypto_file_single_row.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_btn_submit.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/btn_submit.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_btn_sign_up.png.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/btn_sign_up.png"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable_ic_arrow_down.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable/ic_arrow_down.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/layout_activity_properties.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_properties.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-merged_res-38:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.cryptocloud.app-main-40:/drawable-v24/ic_launcher_foreground.xml"
+    }
+]

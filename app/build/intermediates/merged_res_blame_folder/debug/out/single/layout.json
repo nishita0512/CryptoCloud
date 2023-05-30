@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/activity_user_details.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_user_details.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/text_input_password.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/text_input_password.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/fragment_profile.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/crypto_file_single_row.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/crypto_file_single_row.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/text_input_rename.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/text_input_rename.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/activity_splash_screen.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/activity_properties.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_properties.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/activity_login.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/activity_sign_up.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/fragment_files.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/fragment_files.xml"
+    },
+    {
+        "merged": "com.example.cryptocloud.app-mergeDebugResources-37:/layout/activity_forgot_password.xml",
+        "source": "com.example.cryptocloud.app-main-40:/layout/activity_forgot_password.xml"
+    }
+]

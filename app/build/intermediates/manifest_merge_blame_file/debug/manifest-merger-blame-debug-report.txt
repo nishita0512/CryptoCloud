@@ -1,0 +1,358 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cryptocloud"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:5:5-80
+12-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:6:22-78
+14
+15    <queries>
+15-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:9:5-19:15
+16
+17        <!-- Query Camera Packages -->
+18        <intent>
+18-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:12:9-14:18
+19            <action android:name="android.media.action.IMAGE_CAPTURE" />
+19-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:13:13-73
+19-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:13:21-70
+20        </intent>
+21        <!-- Query Open Document -->
+22        <intent>
+22-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:16:9-18:18
+23            <action android:name="android.intent.action.OPEN_DOCUMENT_TREE" />
+23-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:17:13-79
+23-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:17:21-76
+24        </intent>
+25    </queries>
+26
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:5-79
+27-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:24:22-76
+28
+29    <permission
+29-->[androidx.core:core:1.10.1] C:\Users\nishi\.gradle\caches\transforms-3\c1c18cf9686c3e154c51e60ce2bdb4a8\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+30        android:name="com.example.cryptocloud.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.10.1] C:\Users\nishi\.gradle\caches\transforms-3\c1c18cf9686c3e154c51e60ce2bdb4a8\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.10.1] C:\Users\nishi\.gradle\caches\transforms-3\c1c18cf9686c3e154c51e60ce2bdb4a8\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.example.cryptocloud.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.10.1] C:\Users\nishi\.gradle\caches\transforms-3\c1c18cf9686c3e154c51e60ce2bdb4a8\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.10.1] C:\Users\nishi\.gradle\caches\transforms-3\c1c18cf9686c3e154c51e60ce2bdb4a8\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:8:5-54:19
+36        android:allowBackup="true"
+36-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:9:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.10.1] C:\Users\nishi\.gradle\caches\transforms-3\c1c18cf9686c3e154c51e60ce2bdb4a8\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:extractNativeLibs="false"
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:10:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:11:9-41
+42        android:requestLegacyExternalStorage="true"
+42-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:12:9-52
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:13:9-54
+44        android:supportsRtl="true"
+44-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:14:9-35
+45        android:theme="@style/Theme.CryptoCloud" >
+45-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:15:9-49
+46        <activity
+46-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:16:9-24:20
+47            android:name="com.example.cryptocloud.activities.SplashScreenActivity"
+47-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:17:13-60
+48            android:exported="true" >
+48-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:18:13-36
+49            <intent-filter>
+49-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:19:13-23:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:20:17-69
+50-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:20:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:22:17-77
+52-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:22:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:25:9-27:40
+56            android:name="com.example.cryptocloud.activities.PropertiesActivity"
+56-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:26:13-58
+57            android:exported="false" />
+57-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:27:13-37
+58
+59        <provider
+60            android:name="androidx.core.content.FileProvider"
+60-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:30:13-62
+61            android:authorities="com.example.cryptocloud.provider"
+61-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:31:13-60
+62            android:exported="false"
+62-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:32:13-37
+63            android:grantUriPermissions="true" >
+63-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:33:13-47
+64            <meta-data
+64-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:34:13-36:57
+65                android:name="android.support.FILE_PROVIDER_PATHS"
+65-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:35:17-67
+66                android:resource="@xml/provider_path" />
+66-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:36:17-54
+67        </provider>
+68
+69        <activity
+69-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:39:9-41:40
+70            android:name="com.example.cryptocloud.activities.UserDetailsActivity"
+70-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:40:13-59
+71            android:exported="false" />
+71-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:41:13-37
+72        <activity
+72-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:42:9-44:40
+73            android:name="com.example.cryptocloud.activities.LoginActivity"
+73-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:43:13-53
+74            android:exported="false" />
+74-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:44:13-37
+75        <activity
+75-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:45:9-47:40
+76            android:name="com.example.cryptocloud.activities.ForgotPasswordActivity"
+76-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:46:13-62
+77            android:exported="false" />
+77-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:47:13-37
+78        <activity
+78-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:48:9-50:39
+79            android:name="com.example.cryptocloud.activities.SignUpActivity"
+79-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:49:13-54
+80            android:exported="true" />
+80-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:50:13-36
+81        <activity
+81-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:51:9-53:38
+82            android:name="com.example.cryptocloud.activities.MainActivity"
+82-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:52:13-52
+83            android:exported="true" />
+83-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:53:13-36
+84        <activity
+84-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:22:9-25:68
+85            android:name="com.github.dhaval2404.imagepicker.ImagePickerActivity"
+85-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:23:13-81
+86            android:screenOrientation="unspecified"
+86-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:24:13-52
+87            android:theme="@style/Theme.Transparent.ImagePicker" />
+87-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:25:13-65
+88        <activity
+88-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:26:9-29:72
+89            android:name="com.yalantis.ucrop.UCropActivity"
+89-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:27:13-60
+90            android:screenOrientation="portrait"
+90-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:28:13-49
+91            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+91-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:29:13-69
+92
+93        <provider
+93-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:31:9-39:20
+94            android:name="com.github.dhaval2404.imagepicker.ImagePickerFileProvider"
+94-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:32:13-85
+95            android:authorities="com.example.cryptocloud.imagepicker.provider"
+95-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:33:13-72
+96            android:exported="false"
+96-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:34:13-37
+97            android:grantUriPermissions="true" >
+97-->[com.github.dhaval2404:imagepicker:2.1] C:\Users\nishi\.gradle\caches\transforms-3\e28443e3da01a6015a14de4776fca6cb\transformed\imagepicker-2.1\AndroidManifest.xml:35:13-47
+98            <meta-data
+98-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:34:13-36:57
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:35:17-67
+100                android:resource="@xml/image_picker_provider_paths" />
+100-->C:\Users\nishi\AndroidStudioProjects\CryptoCloud\app\src\main\AndroidManifest.xml:36:17-54
+101        </provider>
+102
+103        <service
+103-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\f0c35da9f71170de7a8cfff80ca2d511\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:8:9-14:19
+104            android:name="com.google.firebase.components.ComponentDiscoveryService"
+104-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\f0c35da9f71170de7a8cfff80ca2d511\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:9:13-84
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\d539174ef6d0478ea3b94cf2d65e2607\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\f0c35da9f71170de7a8cfff80ca2d511\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:10:13-37
+107            <meta-data
+107-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\f0c35da9f71170de7a8cfff80ca2d511\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:11:13-13:85
+108                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+108-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\f0c35da9f71170de7a8cfff80ca2d511\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:12:17-116
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-auth-ktx:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\f0c35da9f71170de7a8cfff80ca2d511\transformed\firebase-auth-ktx-21.0.3\AndroidManifest.xml:13:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:67:13-69:85
+111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+111-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:68:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:69:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-storage-ktx:20.0.1] C:\Users\nishi\.gradle\caches\transforms-3\cf8ae32773d1b1a973f94a450752ab70\transformed\firebase-storage-ktx-20.0.1\AndroidManifest.xml:15:13-17:85
+114                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+114-->[com.google.firebase:firebase-storage-ktx:20.0.1] C:\Users\nishi\.gradle\caches\transforms-3\cf8ae32773d1b1a973f94a450752ab70\transformed\firebase-storage-ktx-20.0.1\AndroidManifest.xml:16:17-122
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-storage-ktx:20.0.1] C:\Users\nishi\.gradle\caches\transforms-3\cf8ae32773d1b1a973f94a450752ab70\transformed\firebase-storage-ktx-20.0.1\AndroidManifest.xml:17:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\nishi\.gradle\caches\transforms-3\688b291fc6325de238382e7c7a49915b\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:15:13-17:85
+117                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+117-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\nishi\.gradle\caches\transforms-3\688b291fc6325de238382e7c7a49915b\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:16:17-126
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-firestore-ktx:24.1.1] C:\Users\nishi\.gradle\caches\transforms-3\688b291fc6325de238382e7c7a49915b\transformed\firebase-firestore-ktx-24.1.1\AndroidManifest.xml:17:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\4e47da2370c7071d7092fd67d022723e\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:15:13-17:85
+120                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+120-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\4e47da2370c7071d7092fd67d022723e\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:16:17-113
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\4e47da2370c7071d7092fd67d022723e\transformed\firebase-common-ktx-20.1.0\AndroidManifest.xml:17:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\nishi\.gradle\caches\transforms-3\dc4b12e5195cc738676c1f1b7069fcaf\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+123                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+123-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\nishi\.gradle\caches\transforms-3\dc4b12e5195cc738676c1f1b7069fcaf\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\nishi\.gradle\caches\transforms-3\dc4b12e5195cc738676c1f1b7069fcaf\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\nishi\.gradle\caches\transforms-3\7c01ace46dbb07e280d1fab743e3eb65\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:20:13-22:85
+126                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+126-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\nishi\.gradle\caches\transforms-3\7c01ace46dbb07e280d1fab743e3eb65\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:21:17-111
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-firestore:24.1.1] C:\Users\nishi\.gradle\caches\transforms-3\7c01ace46dbb07e280d1fab743e3eb65\transformed\firebase-firestore-24.1.1\AndroidManifest.xml:22:17-82
+128        </service>
+129
+130        <activity
+130-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:27:9-44:20
+131            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+131-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:28:13-80
+132            android:excludeFromRecents="true"
+132-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:29:13-46
+133            android:exported="true"
+133-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:30:13-36
+134            android:launchMode="singleTask"
+134-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:31:13-44
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+135-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:32:13-72
+136            <intent-filter>
+136-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:33:13-43:29
+137                <action android:name="android.intent.action.VIEW" />
+137-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+137-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+138
+139                <category android:name="android.intent.category.DEFAULT" />
+139-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+139-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+140                <category android:name="android.intent.category.BROWSABLE" />
+140-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+140-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+141
+142                <data
+142-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+143                    android:host="firebase.auth"
+143-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+144                    android:path="/"
+144-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+145                    android:scheme="genericidp" />
+145-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+146            </intent-filter>
+147        </activity>
+148        <activity
+148-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:45:9-62:20
+149            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+149-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:46:13-79
+150            android:excludeFromRecents="true"
+150-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:47:13-46
+151            android:exported="true"
+151-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:48:13-36
+152            android:launchMode="singleTask"
+152-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:49:13-44
+153            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+153-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:50:13-72
+154            <intent-filter>
+154-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:51:13-61:29
+155                <action android:name="android.intent.action.VIEW" />
+155-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:17-69
+155-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:34:25-66
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:17-76
+157-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:36:27-73
+158                <category android:name="android.intent.category.BROWSABLE" />
+158-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:17-78
+158-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:37:27-75
+159
+160                <data
+160-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:39:17-42:51
+161                    android:host="firebase.auth"
+161-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:40:21-49
+162                    android:path="/"
+162-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:41:21-37
+163                    android:scheme="recaptcha" />
+163-->[com.google.firebase:firebase-auth:21.0.3] C:\Users\nishi\.gradle\caches\transforms-3\2910b8f69a408c37762664d9fbfa1ec6\transformed\firebase-auth-21.0.3\AndroidManifest.xml:42:21-48
+164            </intent-filter>
+165        </activity>
+166
+167        <provider
+167-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\d539174ef6d0478ea3b94cf2d65e2607\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+168            android:name="com.google.firebase.provider.FirebaseInitProvider"
+168-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\d539174ef6d0478ea3b94cf2d65e2607\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+169            android:authorities="com.example.cryptocloud.firebaseinitprovider"
+169-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\d539174ef6d0478ea3b94cf2d65e2607\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\d539174ef6d0478ea3b94cf2d65e2607\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+171            android:exported="false"
+171-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\d539174ef6d0478ea3b94cf2d65e2607\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+172            android:initOrder="100" />
+172-->[com.google.firebase:firebase-common:20.1.0] C:\Users\nishi\.gradle\caches\transforms-3\d539174ef6d0478ea3b94cf2d65e2607\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+173
+174        <activity
+174-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nishi\.gradle\caches\transforms-3\3b5a3093497d72748bb7d45654a9404d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+175            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+175-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nishi\.gradle\caches\transforms-3\3b5a3093497d72748bb7d45654a9404d\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+176            android:exported="false"
+176-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nishi\.gradle\caches\transforms-3\3b5a3093497d72748bb7d45654a9404d\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+177            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+177-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\nishi\.gradle\caches\transforms-3\3b5a3093497d72748bb7d45654a9404d\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+178
+179        <meta-data
+179-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nishi\.gradle\caches\transforms-3\5ad7aa72f1fd80121872064969392821\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+180            android:name="com.google.android.gms.version"
+180-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nishi\.gradle\caches\transforms-3\5ad7aa72f1fd80121872064969392821\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+181            android:value="@integer/google_play_services_version" />
+181-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\nishi\.gradle\caches\transforms-3\5ad7aa72f1fd80121872064969392821\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+182
+183        <provider
+183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishi\.gradle\caches\transforms-3\7b287c446d5baee01c533293918bacac\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+184            android:name="androidx.startup.InitializationProvider"
+184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishi\.gradle\caches\transforms-3\7b287c446d5baee01c533293918bacac\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+185            android:authorities="com.example.cryptocloud.androidx-startup"
+185-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishi\.gradle\caches\transforms-3\7b287c446d5baee01c533293918bacac\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+186            android:exported="false" >
+186-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishi\.gradle\caches\transforms-3\7b287c446d5baee01c533293918bacac\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+187            <meta-data
+187-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishi\.gradle\caches\transforms-3\7b287c446d5baee01c533293918bacac\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+188-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishi\.gradle\caches\transforms-3\7b287c446d5baee01c533293918bacac\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+189                android:value="androidx.startup" />
+189-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishi\.gradle\caches\transforms-3\7b287c446d5baee01c533293918bacac\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+190            <meta-data
+190-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\nishi\.gradle\caches\transforms-3\c970352ce988ba156696c393a2085636\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+191                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+191-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\nishi\.gradle\caches\transforms-3\c970352ce988ba156696c393a2085636\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+192                android:value="androidx.startup" />
+192-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\nishi\.gradle\caches\transforms-3\c970352ce988ba156696c393a2085636\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+193        </provider>
+194    </application>
+195
+196</manifest>

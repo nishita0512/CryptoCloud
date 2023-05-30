@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.cryptocloud.app-mergeDebugResources-36:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nishi\\AndroidStudioProjects\\CryptoCloud\\app\\src\\main\\res\\values-v29\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "64",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "853"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "766"
+                    }
+                }
+            ]
+        }
+    ]
+}

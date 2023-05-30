@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/byNewestFirstSortMenu"
+        android:title="Newest First" />
+
+    <item
+        android:id="@+id/byOldestFirstSortMenu"
+        android:title="Oldest First" />
+
+    <item
+        android:id="@+id/byNameAscendingSortMenu"
+        android:title="A->Z" />
+
+    <item
+        android:id="@+id/byNameDescendingSortMenu"
+        android:title="Z->A" />
+
+
+</menu>
