@@ -10,7 +10,23 @@ Welcome to the official repository of CryptoCloud Android App! This open-source 
 
 ## Screenshots
 
+<p float="left">
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/Signup.png" width="300" height="610" />
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/Login.png" width="300" height="610" />
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/ForgotPassword.png" width="300" height="610" />
+</p>
 
+<p float="left">
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/Files.png" width="300" height="610" />
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/FileOptions.png" width="300" height="610" />
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/FileProperties.png" width="300" height="610" />
+</p>
+
+<p float="left">
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/Password.png" width="300" height="610" />
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/Profile.png" width="300" height="610" />
+  <img src="https://github.com/nishita0512/CryptoCloud/blob/master/Screenshots/UserDetails.png" width="300" height="610" />
+</p>
 
 ## Acknowledgements
 
